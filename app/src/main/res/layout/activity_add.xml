@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#F6F6F6"
+        tools:context=".ui.AddActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:layout_weight="1.3">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/task"
+                        android:layout_width="300dp"
+                        android:layout_height="80dp"
+                        android:hint="Task"
+                        android:inputType="text"
+                        android:textSize="25dp"
+                        android:textColorHint="#AEAEAE"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:backgroundTint="@color/white">
+
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/desc"
+                        android:layout_width="300dp"
+                        android:layout_height="150dp"
+                        android:hint="Description"
+                        android:textSize="20dp"
+                        android:inputType="text"
+                        android:gravity="top"
+                        android:textColorHint="#AEAEAE"
+                        android:textColor="@color/black"
+                        android:backgroundTint="@color/white">
+
+                    </EditText>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/addBut"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/edit"
+                android:src="@drawable/edit"
+                app:fabCustomSize="60dp"
+                app:backgroundTint="@color/white"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</layout>

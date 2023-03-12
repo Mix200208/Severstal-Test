@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.48596343994140623" />
+        <entry key="app/src/main/res/layout-land/task_item.xml" value="0.18980814615885422" />
+        <entry key="app/src/main/res/layout/activity_add.xml" value="0.13986358642578126" />
+        <entry key="app/src/main/res/layout/activity_edit.xml" value="0.1378326416015625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24371032714843752" />
+        <entry key="app/src/main/res/layout/task_item.xml" value="0.28618421052631576" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
